@@ -172,20 +172,20 @@ Conducted an end-to-end adversary simulation using the Mythic C2 framework again
 
 📌 Refer to the below screenshots: (left to right)
 
-<img width="975" height="560" alt="image" src="https://github.com/user-attachments/assets/0ef92255-eda6-476d-b24f-b8eebbe7c51e" />
-<img width="975" height="559" alt="image" src="https://github.com/user-attachments/assets/3c60ec11-ef0f-41b1-976d-7e956ea1def8" />
-<img width="975" height="561" alt="image" src="https://github.com/user-attachments/assets/162e4e66-ee50-412a-997b-2c2499fd7acb" />
-<img width="975" height="560" alt="image" src="https://github.com/user-attachments/assets/a12ef55f-e283-453e-9588-43307b4ea37c" />
-<img width="975" height="562" alt="image" src="https://github.com/user-attachments/assets/4b59a498-092f-4629-ae2b-83c9d21fb64c" />
-<img width="975" height="562" alt="image" src="https://github.com/user-attachments/assets/e5ed9c5c-3344-46ec-8f30-8921b12114a5" />
-<img width="975" height="563" alt="image" src="https://github.com/user-attachments/assets/fcbe3bad-1c69-48e9-b766-086047fd20d5" />
-<img width="975" height="562" alt="image" src="https://github.com/user-attachments/assets/39609e79-8b40-490e-82a0-b49731ffbef7" />
-<img width="975" height="563" alt="image" src="https://github.com/user-attachments/assets/a737295b-6b3f-42fe-a14a-14b848ae219f" />
-<img width="975" height="562" alt="image" src="https://github.com/user-attachments/assets/829ecafe-9bb7-481d-8029-1070a98b1093" />
-<img width="975" height="561" alt="image" src="https://github.com/user-attachments/assets/fa77a678-9890-4d82-98aa-5a78d9410c55" />
-<img width="975" height="560" alt="image" src="https://github.com/user-attachments/assets/88ff83ac-02b4-4b96-bf4d-79ebee8fb0dc" />
-<img width="975" height="563" alt="image" src="https://github.com/user-attachments/assets/f7456984-4231-4425-b430-5e958d2a6cd4" />
-<img width="975" height="562" alt="image" src="https://github.com/user-attachments/assets/ed7315d8-330b-4adc-b046-0c0b617c9ebe" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/0ef92255-eda6-476d-b24f-b8eebbe7c51e" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/3c60ec11-ef0f-41b1-976d-7e956ea1def8" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/162e4e66-ee50-412a-997b-2c2499fd7acb" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/a12ef55f-e283-453e-9588-43307b4ea37c" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/4b59a498-092f-4629-ae2b-83c9d21fb64c" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/e5ed9c5c-3344-46ec-8f30-8921b12114a5" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/fcbe3bad-1c69-48e9-b766-086047fd20d5" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/39609e79-8b40-490e-82a0-b49731ffbef7" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/a737295b-6b3f-42fe-a14a-14b848ae219f" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/829ecafe-9bb7-481d-8029-1070a98b1093" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/fa77a678-9890-4d82-98aa-5a78d9410c55" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/88ff83ac-02b4-4b96-bf4d-79ebee8fb0dc" />
+<img width="393" height="230" alt="image" src="https://github.com/user-attachments/assets/f7456984-4231-4425-b430-5e958d2a6cd4" />
+<img width="393" height="230" alt="image" src="https://github.com/user-attachments/assets/ed7315d8-330b-4adc-b046-0c0b617c9ebe" />
 
 
 ### 5. Suspicious Activity Dashboard:
@@ -200,17 +200,17 @@ Conducted an end-to-end adversary simulation using the Mythic C2 framework again
 
 📌 Refer to the below screenshots: (left to right)
 
-<img width="975" height="562" alt="image" src="https://github.com/user-attachments/assets/35744bac-6227-4681-9241-2b81126a42b2" />
-<img width="975" height="560" alt="image" src="https://github.com/user-attachments/assets/48a601ce-b881-4500-8e0d-03a512841cb2" />
-<img width="975" height="561" alt="image" src="https://github.com/user-attachments/assets/15691a69-18c1-4b68-b66f-fcf10460c561" />
-<img width="975" height="559" alt="image" src="https://github.com/user-attachments/assets/841ac393-1902-498c-b743-f6d0c7133756" />
-<img width="975" height="559" alt="image" src="https://github.com/user-attachments/assets/22528c55-883a-4f0e-8ae4-f3908fcf3f80" />
-<img width="975" height="558" alt="image" src="https://github.com/user-attachments/assets/edaace7d-f20e-4dd8-8faa-3119d2393150" />
-<img width="975" height="556" alt="image" src="https://github.com/user-attachments/assets/8b220e81-c590-4d53-96cd-3a90d66cd283" />
-<img width="975" height="558" alt="image" src="https://github.com/user-attachments/assets/d9f8e230-cd3d-470b-a719-f9668c203d15" />
-<img width="975" height="558" alt="image" src="https://github.com/user-attachments/assets/6509d8e5-168a-405c-b00f-698562c82543" />
-<img width="975" height="559" alt="image" src="https://github.com/user-attachments/assets/8473755e-585d-43e8-a0b8-8a80c8bb1371" />
-<img width="975" height="562" alt="image" src="https://github.com/user-attachments/assets/2150b9c8-b4ee-4afc-82a9-ed534c194b3b" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/35744bac-6227-4681-9241-2b81126a42b2" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/48a601ce-b881-4500-8e0d-03a512841cb2" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/15691a69-18c1-4b68-b66f-fcf10460c561" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/841ac393-1902-498c-b743-f6d0c7133756" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/22528c55-883a-4f0e-8ae4-f3908fcf3f80" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/edaace7d-f20e-4dd8-8faa-3119d2393150" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/8b220e81-c590-4d53-96cd-3a90d66cd283" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/d9f8e230-cd3d-470b-a719-f9668c203d15" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/6509d8e5-168a-405c-b00f-698562c82543" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/8473755e-585d-43e8-a0b8-8a80c8bb1371" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/2150b9c8-b4ee-4afc-82a9-ed534c194b3b" />
 
 
 
