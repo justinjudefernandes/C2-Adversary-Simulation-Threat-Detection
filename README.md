@@ -57,7 +57,9 @@ Conducted an end-to-end adversary simulation using the Mythic C2 framework again
   - Exfiltration
 - Designed an attack-chain diagram to document the planned adversary simulation from initial access through data exfiltration.
 
-📌 Refer to the below screenshots: (left to right)
+📌 Refer to the below screenshot:
+
+<img width="505" height="1225" alt="image" src="https://github.com/user-attachments/assets/d91a61ea-967c-4485-a535-7835310760e7" />
 
 ### 2. Mythic C2 Server Deployment:
 - Deployed a Kali Linux virtual machine and installed the required dependencies, including Docker Compose and Make.
@@ -67,6 +69,22 @@ Conducted an end-to-end adversary simulation using the Mythic C2 framework again
 
 📌 Refer to the below screenshots: (left to right)
 
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/3f828831-022a-48e7-8cb6-183d3672c50b" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/5bd557e5-e4bb-493f-b94d-501d53f054ae" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/d1aa65f6-8504-4180-b824-1a75a89ae26e" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/5026cce7-a758-4ff3-943c-31d1a0112323" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/69ec0e77-d792-4fe2-8b55-ab37e4e0c290" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/b8628b09-9ef2-4fa0-a098-3453d47bb992" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/f8b15403-3564-45b2-9443-c96a96c1ee01" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/75ba8c6a-8cb6-4c8f-86ed-838ae3187fcc" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/d99f38f3-b499-4945-bdfc-67aaf0d4551c" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/065854ef-e5dd-4b39-84ef-c520dd6389a0" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/1d466e74-c8d8-46c2-86aa-6bd84a0adfeb" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/305980b0-6bc7-4e7f-8ed0-70b8d1691a18" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/a221dab8-6297-40c5-b286-2e9015853888" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/aa19c596-4be1-4292-9cc6-387b136b2ef6" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/bfe04ca0-350d-4a03-92c5-372c96a7bafb" />
+
 ### 3. Adversary Simulation – Attack Chain Execution:
 
 #### Phase 1 – Credential Access (Brute Force):
@@ -75,22 +93,66 @@ Conducted an end-to-end adversary simulation using the Mythic C2 framework again
 - Used Hydra against the RDP service to perform a controlled brute-force attack against the Windows 11 administrator account.
 - Achieved successful authentication, confirming valid credential compromise within the lab environment.
 
+📌 Refer to the below screenshots: (left to right)
+
+<img width="393" height="230" alt="image" src="https://github.com/user-attachments/assets/54ccb43c-216b-4569-a984-34d31e135109" />
+<img width="393" height="230" alt="image" src="https://github.com/user-attachments/assets/daeca78c-db4b-48fa-80f8-d6608e2f6330" />
+<img width="393" height="230" alt="image" src="https://github.com/user-attachments/assets/7f5f911a-48ba-4084-9c5b-b41251fb9cc8" />
+<img width="393" height="230" alt="image" src="https://github.com/user-attachments/assets/a5be8112-4437-4e9d-ad94-8af6b07fa500" />
+<img width="393" height="230" alt="image" src="https://github.com/user-attachments/assets/c3fe0bf0-4ad7-4be4-a373-9666e73a1380" />
+<img width="393" height="230" alt="image" src="https://github.com/user-attachments/assets/48738ea6-891c-4128-9478-a7f6d729be84" />
+<img width="790" height="230" alt="image" src="https://github.com/user-attachments/assets/c58e359a-32df-424a-b706-56e15bf1790c" />
+
 #### Phase 2 – Discovery:
 - Used the compromised RDP session to enumerate the Windows 11 environment.
 - Performed host and account reconnaissance using commands including `whoami`, `ipconfig`, `net user`, and `net group`.
 - Collected basic information about the host, user accounts, network configuration, and group membership.
 
+📌 Refer to the below screenshots: (left to right)
+
+<img width="393" height="230" alt="image" src="https://github.com/user-attachments/assets/401b0c4c-4add-4385-9d13-4aeb28bfda70" />
+<img width="393" height="230" alt="image" src="https://github.com/user-attachments/assets/07404c77-82d9-4a95-b4cd-c3486942c7dd" />
+
 #### Phase 3 – Defense Evasion:
 - From the active RDP session, disabled the Windows Defender Firewall on the Windows 11 endpoint to simulate a defense evasion technique and reduce host-level network protection.
+
+📌 Refer to the below screenshots: (left to right)
+
+<img width="550" height="450" alt="image" src="https://github.com/user-attachments/assets/798a9694-bbc6-4ade-b568-2dbe1ea71824" />
 
 #### Phase 4 – Execution:
 - Used a PowerShell `IEX` (Invoke-Expression) command to retrieve and stage the Mythic Apollo agent on the Windows 11 endpoint.
 - Executed the Mythic agent, establishing the initial connection back to the Mythic C2 server.
 
+📌 Refer to the below screenshots: (left to right)
+
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/bf230a22-9804-4d65-8444-d2fe2ebc0206" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/4fdcac34-9039-4e50-8908-fc0f3f3af8e2" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/97187076-4989-4d2d-9ade-f6a7ae498530" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/d742428c-a69a-40e4-b108-7a4788935bb4" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/bad937fd-0a21-4297-b31a-36173a8a513c" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/77cb65d9-0d2b-48e9-a0ce-5806f8a02ff9" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/d18e6290-7e89-45ff-a4a2-6a67c83cb482" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/02403d93-b765-4d6c-9321-c17e5536ecf5" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/f31493e9-cb87-43a9-a863-f181b0663366" />
+
+
 #### Phase 5 – Command & Control:
 - Confirmed a live, interactive C2 session between the Windows 11 endpoint and the Mythic C2 server.
-- Validated C2 connectivity by issuing commands through the session and reviewing the resulting output in the Mythic GUI.
+- Validated C2 connectivity by issuing commands through the session and reviewed the resulting output in the Mythic GUI.
 - Retrieved files from the endpoint through the established C2 session.
+
+📌 Refer to the below screenshots: (left to right)
+
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/8f27b645-1889-4add-8904-02c6c4b20e14" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/82d1a7dc-ed76-4ef7-97e3-575e9430a3bb" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/dba72ceb-fa0e-45c4-9846-1a488be3526e" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/00efeb9f-6a41-4f01-b178-121cdc0c58ca" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/d88c8508-04e4-4d83-80aa-59153cdae108" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/36777462-37a6-486e-968d-a95b73969267" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/6a88d790-84ac-45c2-a05d-76bbe0d4065d" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/3660eb3d-437e-412b-a80d-16dc10d4319b" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/ed701adc-2747-41d9-9541-2e265ed1cd39" />
 
 #### Phase 6 – Exfiltration:
 - Created a decoy credentials file (`passwords.txt`) containing non-sensitive test data on the Windows 11 endpoint to simulate sensitive information at rest.
@@ -98,6 +160,9 @@ Conducted an end-to-end adversary simulation using the Mythic C2 framework again
 - Demonstrated the complete simulated data theft workflow from endpoint to C2 infrastructure.
 
 📌 Refer to the below screenshots: (left to right)
+
+<img width="393" height="230" alt="image" src="https://github.com/user-attachments/assets/4ef00cc5-13e7-4a6f-8466-203d51412f6a" />
+<img width="393" height="230" alt="image" src="https://github.com/user-attachments/assets/7a211506-a691-4d36-9416-17837dfedfe0" />
 
 ### 4. Detection Engineering from C2 Telemetry:
 - Investigated Sysmon telemetry generated by the Apollo payload, including process creation events and file hash information.
