@@ -59,7 +59,7 @@ Conducted an end-to-end adversary simulation using the Mythic C2 framework again
 
 📌 Refer to the below screenshot:
 
-<img width="505" height="1225" alt="image" src="https://github.com/user-attachments/assets/d91a61ea-967c-4485-a535-7835310760e7" />
+<img width="400" height="800" alt="image" src="https://github.com/user-attachments/assets/d91a61ea-967c-4485-a535-7835310760e7" />
 
 ### 2. Mythic C2 Server Deployment:
 - Deployed a Kali Linux virtual machine and installed the required dependencies, including Docker Compose and Make.
