@@ -211,6 +211,9 @@ Conducted an end-to-end adversary simulation using the Mythic C2 framework again
 <img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/6509d8e5-168a-405c-b00f-698562c82543" />
 <img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/8473755e-585d-43e8-a0b8-8a80c8bb1371" />
 <img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/2150b9c8-b4ee-4afc-82a9-ed534c194b3b" />
+<img width="260" height="230" alt="image" src="https://github.com/user-attachments/assets/a1dca090-362c-4439-99d5-4be1bdd85c20" />
+<img width="393" height="230" alt="image" src="https://github.com/user-attachments/assets/d1816250-aad8-4649-9da4-a8db0e8fec6b" />
+<img width="393" height="230" alt="image" src="https://github.com/user-attachments/assets/271c0602-018f-467a-ab77-35eb4ffc655c" />
 
 
 
